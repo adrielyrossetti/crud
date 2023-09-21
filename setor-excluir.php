@@ -2,7 +2,7 @@
 include_once './_conexao.php';
 
 
-$sql = "DELETE FROM setor WHERE SetorId = ".$Id;
+$sql = "DELETE FROM setor WHERE SetorID = ".$_GET['id'];
 $resultado = mysqli_query($conexao,$sql);
 
 
